@@ -4,10 +4,8 @@ import temp from "../img/temp.png"
 import todo from "../img/todo.png"
 import rsp from "../img/rsp.png"
 import shopping from "../img/shopping.png"
-// import {useHistory} from "react-router-dom"
 import "./project.css";
-import { BrowserRouter as Router, Link } from "react-router-dom";
-import { useHref } from "react-router-dom";
+import {  Link } from "react-router-dom";
 
 
 const Project = () => {
@@ -16,7 +14,6 @@ const Project = () => {
     height: "248px",
   };
 
-//   let history = useHistory();
 
   return (
     <div className="card">

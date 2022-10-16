@@ -60,4 +60,37 @@
   }
 
 
+  @media (min-width:320px) and (max-width:768px){
+
+	.skillsGrid{
+		display: grid;
+		grid-template-columns: repeat(6, 1fr);
+		gap: 10px;
+		grid-auto-rows: auto;
+		height: auto;
+		margin-bottom: auto;
+	  }
+
+
+	.skill{
+		/* background-color: whitesmoke; */
+		display: flex;
+		flex-direction: column;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+		margin: auto;
+		padding: auto;
+	  }
+
+	  .skillsGrid img {
+		height: 150px;
+		width: 100px;
+	  }
+
+   }
+
+
   

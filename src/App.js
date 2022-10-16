@@ -9,6 +9,7 @@ import Portfolio1 from "./component/Portfolio1";
 import ToDoList from "./component/ToDoList";
 
 
+
 const App = () => {
   return (
 	
@@ -24,6 +25,8 @@ const App = () => {
 	<Route exact path="/Portfolio1" element={<Portfolio1/>}/>
 	<Route exact path="/ToDoList" element={<ToDoList/>}/>
 	<Route exact path="/Contact" element={<Contact/>}/>
+
+
 
 
   </Routes>
