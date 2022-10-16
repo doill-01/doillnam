@@ -1,6 +1,7 @@
 import Navbar from "./component/Navbar";
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";import Home from "./component/Home";
+import { Route, Routes } from "react-router-dom";
+import Home from "./component/Home";
 import About from "./component/About";
 import Skills from "./component/Skills";
 import Project from "./component/Project";
@@ -12,11 +13,9 @@ import ToDoList from "./component/ToDoList";
 
 const App = () => {
   return (
-	
-	<Router>
-		<Navbar/>
+	<>
+	<Navbar/>
 	<Routes>
-
 	<Route exact path="/" element={<Home/>}/>
 	<Route exact path="about" element={<About/>}/>
 	<Route exact path="/skills" element={<Skills/>}/>
@@ -25,12 +24,9 @@ const App = () => {
 	<Route exact path="/Portfolio1" element={<Portfolio1/>}/>
 	<Route exact path="/ToDoList" element={<ToDoList/>}/>
 	<Route exact path="/Contact" element={<Contact/>}/>
-
-
-
-
   </Routes>
-  </Router>
+  </>
+
 	 
   );
 };

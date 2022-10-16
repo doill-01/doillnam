@@ -12,6 +12,7 @@ const Home = () => {
     // image: "../img/img1.png",
   });
   return (
+	
     <div className="mainhome">
       <div className="mainhome-intro">
         <h2>
