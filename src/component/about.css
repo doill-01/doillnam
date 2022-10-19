@@ -43,7 +43,7 @@
   margin-bottom: 45px;
 }
 
-@media (min-width:456px) and (max-width:768px){ 
+@media (min-width:300px) and (max-width:768px){ 
 	.main{
 		display: flex;
 		width: 500px;
