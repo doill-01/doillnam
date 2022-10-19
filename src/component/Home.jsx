@@ -2,7 +2,7 @@
 import "./home.css";
 import Typewriter from "typewriter-effect";
 import React, { useState } from "react";
-import img from "../img/aa.png";
+
 
 const Home = () => {
   const [state] = useState({
