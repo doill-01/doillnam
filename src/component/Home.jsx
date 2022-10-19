@@ -12,7 +12,6 @@ const Home = () => {
     // image: "../img/img1.png",
   });
   return (
-	
     <div className="mainhome">
       <div className="mainhome-intro">
         <h2>
@@ -38,11 +37,8 @@ const Home = () => {
         <h2>
           <div className="titleThree">{state.titleThree}</div>
         </h2>
-      </div>
-      <div className="home-image">
-        <img className="homemain-image" src={img}alt="spiderman"></img>
-      </div>
     </div>
+	</div>
   );
 };
 

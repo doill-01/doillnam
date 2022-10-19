@@ -1,19 +1,24 @@
+
 .mainhome{
-	background-color: white;
-	height: 90vh;
-	width: 100%;
+	/* background-color: white; */
+	height: 500px;
+	width: auto;
 	display: flex;
-}
+	background-image: url("https://img.freepik.com/free-vector/cloud-background-vector-cute-desktop-wallpaper_53876-136885.jpg");
+	background-size: cover;
+	height: 640px;
+
+}  
 
 .mainhome-intro{
-	width: 55%;
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: flex-start;
-	margin-left: 100px;
+	align-items: center;
 	font-size: 30px;
 	color: black;
+	background-repeat: no-repeat;
 }
 
 .home-image{
@@ -88,7 +93,7 @@
 @media screen and (max-width: 1100px){
 
 	.mainhome-intro{
-		width:100vw;
+		/* width:100vw; */
 		height: 80vh;
 		display: flex;
 		justify-content: center;
@@ -98,11 +103,6 @@
 		flex-wrap: wrap;
 	}
 
-	.home-image{
-		margin-top: 10px;
-		display: none;
-		flex-wrap: wrap;
-	}
 
 
 
@@ -112,48 +112,50 @@
 
 		.mainhome{
 			flex-wrap: wrap;
+			display: flex;
+			justify-content: center;
+			align-items: center;
 		}
 		.main-intro{
 			padding-left: 40px;
 			font-size: 40px;
 			flex-wrap: wrap;
+
 		}
-		.home-image{
+
+
+	}
+
+	@media screen and (max-width:768px){
+
+		.mainhome{
+			flex-wrap: wrap;
 			display: flex;
-			flex-direction: column;
 			justify-content: center;
-			width: 800px;
+			align-items: center;
 		}
+		.main-intro{
+			padding-left: 40px;
+			font-size: 40px;
+			flex-wrap: wrap;
+
+		}
+
 
 	}
 
 	@media screen and (max-width:600px){
 
-		.mainhome{
-			flex-wrap: wrap;
-			margin: auto;
-			padding: auto;
-			height: auto;
-		}
 		.mainhome-intro{
 			font-size: 30px;
 			flex-wrap: wrap;
+			
+
 		}
 		.text{
 			font-size: 24px;
 			flex-wrap: wrap;
-		}
 
-		.home-image{
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
-		}
-
-		.homemain-image{
-			margin: 0;
-			padding: 0;
 		}
 
 	}
